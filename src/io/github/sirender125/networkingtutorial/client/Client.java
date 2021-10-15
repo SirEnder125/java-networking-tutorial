@@ -17,7 +17,7 @@ public class Client
         try (Socket socket = new Socket("127.0.0.1", Server.PORT))
         {
             System.out.println("Successfully connected to server on port " + Server.PORT);
-            System.out.println("Commands known: DATE - queries the current date"); // Does that word mean what I think?? (query) I don't even know. I'm dumb. Ha, ha!
+            System.out.println("Commands known: DATE - queries the current date");
 
             // Get input and output streams.
             BufferedReader reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
