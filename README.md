@@ -8,9 +8,9 @@ Well, nothing right now besides the source code. I'll probably add a tutorial in
 ```
 io/github/sirender125
 |
-└───server
++---server
 |     Server.java
 |     ClientHandler.java
-└───client
++---client
       Client.java
 ```
