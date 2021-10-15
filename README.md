@@ -6,13 +6,13 @@ Well, nothing right now besides the source code. I'll probably add a tutorial in
 
 ## Source
 ```
-io/github/sirender125
+io/github/sirender125/networkingtutorial
 |
 +---server
-|     Server.java
-|     ClientHandler.java
+|    Server.java
+|    ClientHandler.java
 +---client
-      Client.java
+     Client.java
 ```
 
 ## FAQ:
