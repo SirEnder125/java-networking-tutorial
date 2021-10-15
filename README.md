@@ -16,7 +16,7 @@ io/github/sirender125
 ```
 
 ## FAQ:
-**Q: I accidentally entered the wrong command on the client, and now it is not asking me for input! What happened?**
+**Q: I accidentally entered the wrong command on the client, and now it is not asking me for input! What happened?**<br/>
 A: That is because on the server, when handling client input, the input is checked for validity, and if it is invalid,
 it will not respond to it. Thus making the client on the other end wait forever. A fix for this would be to send an error
 message whenever the client sends something dumb to the server.
