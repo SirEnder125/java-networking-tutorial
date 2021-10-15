@@ -16,7 +16,6 @@ io/github/sirender125/networkingtutorial
 ```
 
 ## FAQ:
-----
 **Q: I accidentally entered the wrong command on the client, and now it is not asking me for input! What happened?**<br/>
 A: This is because the server does not respond to invalid requests, so the client just keeps waiting for a response.
 
