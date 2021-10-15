@@ -1,4 +1,4 @@
-package io.github.sirender125.client;
+package io.github.sirender125.networkingtutorial.client;
 
 public class Client
 {

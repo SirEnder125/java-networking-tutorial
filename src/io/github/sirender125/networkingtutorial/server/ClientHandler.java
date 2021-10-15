@@ -1,4 +1,4 @@
-package io.github.sirender125.server;
+package io.github.sirender125.networkingtutorial.server;
 
 import java.io.BufferedReader;
 import java.io.IOException;
