@@ -16,6 +16,8 @@ io/github/sirender125
 ```
 
 ## FAQ:
+----
 **Q: I accidentally entered the wrong command on the client, and now it is not asking me for input! What happened?**<br/>
-A: On the server, nothing is sent to the client if the client sent something invalid, (a command we do not know,) so when
-the client is waiting on server response, it will not get any.
+A: This is because the server does not respond to invalid requests, so the client just keeps waiting for a response.
+
+![image](https://user-images.githubusercontent.com/69535694/137502820-2724737c-f73b-46a0-83a4-3edb51e5484e.png)
